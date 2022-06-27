@@ -1,20 +1,22 @@
-# scanner_mobile
+# Annotation App
 
-A crowdsourcing mobile app
+An annotation/image collector mobile app
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app is a prototype written in Flutter. Users can take pictures of food, tag them, and send those to 
+the server. Those images can be used to train an AI model.
 
-A few resources to get you started if this is your first Flutter project:
+In this application, I used Pybossa as a server to collect tagged images from users.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Some demo images:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Logo](listing/app_icon.png)
 
-To build a release for Android
-Tools->Flutter->Open in a separate Android -> Build Signed APK
-Please do not use Target SDK >= 30 (the code does not work as it does not allow local file access)
+![Logo](listing/screen_1.png)
+
+![Logo](listing/screen_2.png)
+
+![Logo](listing/screen_3.png)
+
+![Logo](listing/screen_4.png)
